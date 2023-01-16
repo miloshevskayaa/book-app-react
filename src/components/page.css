@@ -1,0 +1,101 @@
+.page{
+    background-color: rgb(232, 232, 232);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* overflow: -moz-scrollbars-vertical; */
+    /* overflow-y: auto; */
+}
+.header{
+    background-color: rgb(148, 148, 148);
+    color: rgb(234, 234, 234);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header input{
+    font-size: 16px;
+    padding: 5px 10px;
+    width: 200px;
+    border-radius: 0px;
+    border: 0;
+    border-style: solid;
+    border-width: 0.3px;
+    border-color: rgb(88, 88, 88);
+}
+.header div, .header p{
+    margin: 10px 0;
+}
+.header p{
+    font-size: 36px;
+}
+.params{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.params span{
+    display: flex;
+    align-items: center;
+}
+.params p, .params select{
+    font-size: 18px;
+}
+.params select{
+    font-size: 16px;
+    padding: 0 10px;
+    height: 30px;
+    text-align: center;
+    margin: 0 20px;
+    background-color: rgb(211, 211, 211);
+    color: rgb(74, 74, 74);
+    border-style: solid;
+    border-width: 0.3px;
+    border-color: rgb(88, 88, 88);
+}
+button{
+    border: 0;
+    background-color: rgb(211, 211, 211);
+    color: rgb(74, 74, 74);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-style: solid;
+    border-width: 0.3px;
+    border-color: rgb(88, 88, 88);
+}
+.more{
+    margin-bottom: 20px;
+    width: 100px;
+}
+.found{
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+@media (min-width: 426px) and (max-width: 1200px) {
+    .scroll{
+        top: 460px;
+        right: 10px;
+        border: 0;
+    }
+}
+@media (min-width: 320px) and (max-width: 426px) {
+    .scroll{
+        top: 460px;
+        right: 5px;
+        border: 0;
+    }
+    .card{
+        height: 450px;
+        width: 300px;
+        margin: 10px 10px 30px 10px;
+    }
+}

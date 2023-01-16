@@ -1,0 +1,82 @@
+.allShow{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    font-weight: 200;
+    z-index: 1;
+    font-style: normal;
+    top: 0;
+    background-color: rgb(235, 232, 232);
+    color:rgb(30, 30, 30);
+    padding: 30px;
+}
+.showBox{
+    margin: 20px auto;
+    padding: 20px 60px;
+}
+.showBox img{
+    height: 250px;
+    width: 200px;
+    margin: 0 50px;
+}
+.showBox .info{
+    margin: 0 50px;
+    font-size: 16px;
+}
+.showBox .info h3{
+    color:rgb(113, 113, 113);
+    font-size: 16px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.allShow h4{
+    text-align: justify;
+    padding: 10px 60px;
+    margin: 20px;
+    height: 150px;
+    overflow: auto;
+    font-size: 16px;
+}
+.close{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.402);
+    padding: 30px 20px;
+    margin: 30px;
+}
+
+@media (min-width: 426px) and (max-width: 1200px) {
+    .allShow{
+        overflow: auto;
+    }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+    .allShow{
+        overflow: auto;
+        padding: 20px 0;
+
+    }
+    .showBox{
+        margin: 0;
+    }
+    .box{
+        text-align: left;
+        flex-direction: column;
+    }
+    .allShow h4{
+        text-align: justify;
+        padding: 10px;
+        margin: 15px 0;
+    }
+    .showBox .info{
+        margin: 0;
+    }
+    h1{
+        font-size: 24px;
+    }
+}

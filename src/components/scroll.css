@@ -1,0 +1,12 @@
+.scroll{
+    position: fixed;
+    top: 550px;
+    right: 30px;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    border: 0;
+    background-color: rgba(211, 211, 211, 0.575);
+    color: rgb(74, 74, 74);
+    font-size: 16px;
+}
